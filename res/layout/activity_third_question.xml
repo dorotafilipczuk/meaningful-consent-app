@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:paddingLeft="@dimen/activity_horizontal_margin" android:paddingTop="@dimen/activity_vertical_margin" android:paddingRight="@dimen/activity_horizontal_margin" android:paddingBottom="@dimen/activity_vertical_margin" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:id="@+id/textView11" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="How strongly do you agree or disagree with the following statement?" />
+        <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:id="@+id/textView15" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:text=""Existing laws and organizational practices provide a reasonable level of protection for consumer privacy today."" />
+        <RadioGroup android:id="@+id/rgAnswer3" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp">
+            <RadioButton android:textSize="16dp" android:id="@+id/radioButton9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:text="Strongly Disagree" />
+            <RadioButton android:textSize="16dp" android:id="@+id/radioButton10" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:text="Somewhat Disagree" />
+            <RadioButton android:textSize="16dp" android:id="@+id/radioButton11" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:text="Somewhat Agree" />
+            <RadioButton android:textSize="16dp" android:id="@+id/radioButton12" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:text="Strongly Agree" />
+        </RadioGroup>
+        <Button android:textSize="18dp" android:id="@+id/button3" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:text="Next" android:onClick="nextQuestion" />
+        <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="10dp">
+            <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:id="@+id/textView16" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="4/4" />
+            <TextView android:textAppearance="?unknown_attr_ref: 1010040" android:textColor="#ff1118" android:id="@+id/txtWarn3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20dp" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

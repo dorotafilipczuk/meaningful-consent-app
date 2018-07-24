@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:paddingLeft="@dimen/activity_horizontal_margin" android:paddingTop="@dimen/activity_vertical_margin" android:paddingRight="@dimen/activity_horizontal_margin" android:paddingBottom="@dimen/activity_vertical_margin" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:id="@+id/linBig" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_alignParentLeft="true" android:layout_alignParentTop="true"
+        <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@+id/imgTotal" android:layout_width="UNKNOWN_DATA_0x2801" android:layout_height="UNKNOWN_DATA_0x2801" android:src="@drawable/points" />
+            <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:id="@+id/txtTotal" android:paddingLeft="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Total Points: " />
+            <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent">
+                <EditText android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/etTotal" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:layout_width="UNKNOWN_DATA_0x5001" android:layout_height="wrap_content" android:layout_marginRight="55dp" android:maxWidth="50dp" android:cursorVisible="false" android:ems="10" android:editable="false" android:inputType="number|numberSigned|numberDecimal|numberPassword|phone" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp">
+            <ImageView android:id="@+id/imageView" android:layout_width="UNKNOWN_DATA_0x2801" android:layout_height="UNKNOWN_DATA_0x2801" android:src="@drawable/pending" />
+            <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:id="@+id/txtPending" android:paddingLeft="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Points Earned: " />
+            <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginRight="55dp">
+                <EditText android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/etPending" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:layout_width="UNKNOWN_DATA_0x5001" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:maxWidth="50dp" android:cursorVisible="false" android:ems="10" android:editable="false" android:inputType="number|numberSigned|numberDecimal|numberPassword|phone" />
+            </LinearLayout>
+        </LinearLayout>
+        <Button android:enabled="false" android:id="@+id/btnNextScenario" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3c01" android:layout_marginTop="5dp" android:text="Next Scenario" android:onClick="bringNextScenario" />
+        <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp">
+            <ImageView android:id="@+id/imgInfoReview" android:layout_width="UNKNOWN_DATA_0x1901" android:layout_height="UNKNOWN_DATA_0x1901" android:layout_marginLeft="20dp" android:src="@drawable/info" />
+            <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:textSize="@dimen/abc_text_size_small_material" android:id="@+id/txtInfoReview" android:paddingLeft="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="info" />
+        </LinearLayout>
+        <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@+id/listText" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="25dp" android:layout_marginBottom="10dp"
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:textColor="#ff3000" android:id="@+id/txtPendingTitle" android:paddingLeft="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Data Shared Publicly" />
+                <TextView android:id="@+id/txtSetAll" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:id="@+id/txtContacts" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="40dp" />
+                <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:id="@+id/txtMessages" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="40dp" />
+                <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:id="@+id/txtApps" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="40dp" />
+                <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:id="@+id/txtBrowser" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="40dp" />
+                <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:id="@+id/txtPhotos" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="40dp" />
+                <View android:background="0x1060013" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x101" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@+id/list" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ExpandableListView android:id="@+id/exp_list" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+    <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="3dp" android:layout_marginBottom="3dp">
+        <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:id="@+id/group_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="40dp" />
+        <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:id="@+id/group_points" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="20dp" />
+            <Button android:id="@+id/btnConfirm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Happy" style="?unknown_attr_ref: 1010049" />
+            <Button android:id="@+id/btnCancel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10dp" android:text="Regret" style="?unknown_attr_ref: 1010049" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

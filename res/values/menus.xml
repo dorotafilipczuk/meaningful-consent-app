@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <menu name="menu_demogs">res/menu/menu_demogs.xml</menu>
+    <menu name="menu_final">res/menu/menu_final.xml</menu>
+    <menu name="menu_first_question">res/menu/menu_first_question.xml</menu>
+    <menu name="menu_main">res/menu/menu_main.xml</menu>
+    <menu name="menu_review">res/menu/menu_review.xml</menu>
+    <menu name="menu_second_question">res/menu/menu_second_question.xml</menu>
+    <menu name="menu_settings">res/menu/menu_settings.xml</menu>
+    <menu name="menu_third_question">res/menu/menu_third_question.xml</menu>
+    <menu name="menu_wait">res/menu/menu_wait.xml</menu>
+</resources>
